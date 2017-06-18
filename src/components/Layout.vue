@@ -7,7 +7,7 @@
           <li><a href="javascript:;">{{username}}</a></li>
           <li><a href="javascript:;" v-if="username===''" @click="logClick">登录</a></li>
           <li class="nav-pile">|</li>
-          <li><a href="javascript:;" v-if="username!=''" @click="username===''">退出</a></li>
+          <li><a href="javascript:;" v-if="username!=''" @click="username=''">退出</a></li>
           <li><a href="javascript:;" v-if="username===''" @click="regClick">注册</a></li>
           <li class="nav-pile">|</li>
           <li><a href="javascript:;" @click="aboutClick">关于</a></li>
